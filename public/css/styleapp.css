@@ -1,0 +1,142 @@
+*{margin:0;
+  padding: 0;
+  top: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+
+}
+
+.nav_Software{
+width: 100%;
+min-height: 80px;
+background-color:#1783db ;
+display: flex; /*el nav colocarlo arriba */
+align-items: center; /*centrar dentro del div */
+justify-content:space-between; /*colocar enfrente  sin espacio */
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.6);
+flex-wrap: wrap;
+}
+img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+.nav_Software h2{
+  color:white;
+  margin-left: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+  font-size: 24px;
+}
+ul{
+  margin-left: auto;/*lo pega todo a la derecha */
+  color: #ffffff;
+  color: rgb(226, 226, 226);
+  font-weight: 300;
+  font-size: 20px;
+  list-style: none;
+}
+
+li {
+  margin-right: 40px;
+}
+.sesion{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background-color: #1263a5;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-right: -10px;
+}
+.sesion:hover{
+  background-color: #1b96fa;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+.cerrar_sesion{
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #1263a5;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: flex; 
+}
+.cerrar_sesion:hover{
+  background-color: #1263a5;
+  color:#ffffff ;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+.sesion_register{
+  font-size: 16px;
+  font-weight: 400;
+  color: #2F48A7;
+  background-color: #D9E3FC;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.sesion_register:hover{
+  background-color: #1b96fa;
+  color:#ffffff ;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+
+.Bienvenido{
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-right: -10px;
+
+}
+.Bienvenido:hover{
+  background-color: #166fb8;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+.bx-log-out{
+  font-weight: 300;
+  color: #ffffff;
+}
+
+
+body{
+    transition: all 0.5s ease;
+    background-image: url('/images/Fondo Nurse003.jpg');
+    font-family: 'Roboto', Helvetica, sans-serif;
+    background-size: cover;
+}
+
+.container_btn {
+  display: flex;
+  justify-content: center; /* Alineación horizontal al centro */
+  align-items: center; /* Alineación vertical al centro */
+  margin-top: 50px;
+}
+
+.btn {
+  padding: 15px 20px;
+  background-color: #2F48A7 ;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btn:hover{
+  background-color: #FFBC2F  ;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}

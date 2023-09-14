@@ -1,0 +1,56 @@
+
+/* Estilos para el footer */
+footer {
+  background-color: #04346C;
+  font-family: 'roboto', Helvetica, 'sans-serif' !important;/*Estilo de letra*/
+  color: #fff;
+  justify-content:center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 15px;
+  width: 100%
+}
+h3{
+font-size: 12px;
+padding: 2px;
+padding-inline: 5px;
+
+}
+p{
+font-size: 12px;
+}
+
+.social-icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+  align-items: center;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #2f49aa;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  background-color: #1e88e5;
+}

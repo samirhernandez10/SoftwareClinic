@@ -1,0 +1,112 @@
+body {
+  background-image: url('/images/clinic-01.jpg');
+  font-family: 'roboto', Helvetica, 'sans-serif' !important;/*Estilo de letra*/
+  background-repeat: no-repeat;
+  background-size:auto;
+  
+} 
+
+/* Estilos generales para el contenedor y el título */
+.container {
+  max-width: 100px;
+  margin: 1px;
+  padding: 120px;
+}
+
+h1 {
+  
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+form {
+  display: grid;
+  gap: 0px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  width: 70%;
+  padding: 8px 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #04346C;
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  margin-bottom: 1%;
+  border-radius: 20px;
+  transition: background-color 0.1s;
+}
+.btn-secondary{
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #04346C;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 20px;
+  text-align: center;
+  transition: background-color 0.1s;
+  
+}
+.btn-secondary:hover {
+  background-color: #f4f768;
+  color: #201f1f;}
+button:hover {
+  background-color: #f4f768;
+  color: #201f1f;}
+
+  footer {
+    background-color: #04346C;
+    color: #fff;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+   }
+   .notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 16px;
+    border-radius: 4px;
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.notification.show {
+    opacity: 1;
+    visibility: visible;
+}

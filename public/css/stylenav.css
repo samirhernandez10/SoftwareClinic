@@ -1,0 +1,360 @@
+*{margin:0;
+  padding: 0;
+  top: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+.nav_Software{
+width: 100%;
+min-height: 70px;
+background-color:rgb(255, 255, 255);
+display: flex; /*el nav colocarlo arriba */
+align-items: center; /*centrar dentro del div */
+justify-content:space-between;
+box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+position: absolute;
+}
+
+
+.nav_Software img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 40px;
+display: flex;
+position: absolute;
+margin-top: 10px;
+
+}
+.nav_Software h2{
+  color:#6366F1;
+  font-weight: 500;
+  font-size: 22px;
+  margin-left: 100px;
+  display: flex;
+  position: relative;
+
+}
+
+ul{
+  width: 100%;
+  margin-left: auto;/*lo pega todo a la derecha */
+  color: #ffffff;
+  color: rgb(226, 226, 226);
+  font-weight: 300;
+  font-size: 20px;
+  list-style: none;
+}
+
+li {
+  margin-right: 40px;
+}
+.sesion{
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2F48A7;
+  background-color: #D9E3FC ;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-right: -10px;
+  
+}
+.sesion:hover{
+  background-color: #2F48A7 ;
+  color: #D9E3FC;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.sesion_register{
+  font-size: 16px;
+  font-weight: 400;
+  color: #2F48A7;
+  background-color: #D9E3FC;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.sesion_register:hover{
+  background-color: #2F48A7;
+  color:#D9E3FC ;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+
+
+.bx-log-out{
+  font-weight: 300;
+  color: #D9E3FC;
+}
+
+.titulo_inicial{
+position: relative;
+font-size: 40px;
+font-weight: 500;
+top: 120px;
+text-align:  center;
+color: #fff;
+text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.parrafo_inicial{
+  position: relative;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 80px 90px;
+  text-align:  center;
+  top: 130px;
+  color: #fff;
+  text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+body{
+    transition: all 0.5s ease;
+    background-image: url('/images/Fondologin.jpg');
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.container_btn {
+  display: flex;
+  justify-content: center; /* Alineación horizontal al centro */
+  align-items: center; /* Alineación vertical al centro */
+  margin-top: 50px;
+}
+
+.btn {
+  padding: 15px 10px;
+  background-color: #FFBC2F ;
+  color: #2F48A7;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+.contenedor_nav{
+  padding: 16px;
+  display: flex;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.btn:hover{
+  background-color: #2F48A7  ;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.welcome{
+  font-size: 18px;
+  font-weight: 400;
+  color: #2F48A7;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.close{
+  font-size: 16px;
+  font-weight: 400;
+  color: #2F48A7;
+  background-color: #FFBC2F;
+  text-decoration: none;
+  display: flex;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+ .close:hover{
+  color: #fff;
+  background-color: #2F48A7;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+@media (max-width: 760px) {
+.nav_Software {
+  width: 100%;
+position: absolute;    
+align-items:center;
+justify-content: space-between;}
+
+.nav_Software h2{
+  color:#2F48A7;
+  margin-left: 14px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.contenedor_nav{
+  padding: 16px;
+  display: flex;
+  margin-left: auto;
+  justify-content: space-between;
+  margin-left: 100px;  }
+
+
+
+li {margin-left:-90px ;
+}
+.contenedor_title{
+  width: 10%;
+  min-height: 70px;
+  background-color:#fff;
+  display: flex; /*el nav colocarlo arriba */
+  align-items: center; /*centrar dentro del div */
+  justify-content:space-between;
+  
+  }
+  .nav_Software img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+
+  .welcome{
+    font-size: 13px;
+    font-weight: 400;
+    color: #2F48A7;
+    text-decoration: none;
+    border-radius: 10px;
+    align-self: center;
+    display: flex;
+  }
+
+  .close{
+    font-size: 14px;
+    font-weight: 400;
+    color: #2F48A7;
+    background-color: #FFBC2F;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    position: relative;
+  }
+
+
+  .titulo_inicial{
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    text-align:  center;
+    color: #fff;
+    padding: 20px 30px;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    
+    }
+    
+    .parrafo_inicial{
+      position: relative;
+      font-size: 15px;
+      font-weight: 300;
+      padding: 20px 30px;
+      text-align:  center;
+      color: #fff;
+      text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+}
+@media (max-width: 760px) {
+  .nav_Software {
+    width: 100%;
+  position: absolute;    
+  align-items:center;
+  justify-content: space-between;}
+  
+  .nav_Software h2{
+    color:#2F48A7;
+    margin-left: 14px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  
+  .contenedor_nav{
+    padding: 16px;
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    margin-left: 100px;  }
+  
+  
+  
+  li {margin-left:-90px ;
+  }
+  .contenedor_title{
+    width: 10%;
+    min-height: 70px;
+    background-color:#fff;
+    display: flex; /*el nav colocarlo arriba */
+    align-items: center; /*centrar dentro del div */
+    justify-content:space-between;
+    
+    }
+    .nav_Software img{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-left: 10px;
+    }
+  
+    .welcome{
+      font-size: 13px;
+      font-weight: 400;
+      color: #2F48A7;
+      text-decoration: none;
+      border-radius: 10px;
+      align-self: center;
+      display: flex;
+    }
+  .welcome b{
+    font-size: 14px;
+    display: flex;
+
+  }
+    .close{
+      font-size: 14px;
+      font-weight: 400;
+      color: #2F48A7;
+      background-color: #FFBC2F;
+      text-decoration: none;
+      display: flex;
+      border-radius: 10px;
+      position: relative;
+      padding: 10px 5px;
+      margin-left: 40px;
+      margin-right: -90px;
+    }
+  
+  
+    .titulo_inicial{
+      position: relative;
+      font-size: 40px;
+      font-weight: 500;
+      text-align:  center;
+      color: #fff;
+      padding: 20px 30px;
+      text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+      
+      }
+      
+      .parrafo_inicial{
+        position: relative;
+        font-size: 20px;
+        font-weight: 300;
+        padding: 20px 30px;
+        text-align:  center;
+        color: #fff;
+        text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  }
+}
